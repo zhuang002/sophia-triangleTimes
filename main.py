@@ -1,12 +1,12 @@
-angle1 = int(input())
-angle2 = int(input())
-angle3 = int(input())
+a = int(input())
+b = int(input())
+c = int(input())
 
-if angle1+angle2+angle3 != 180:
+if a+b+c != 180:
     print("Error")
-elif angle1 == 60 and angle2 == 60:
+elif a == 60 and b == 60:
     print("Equilateral")
-elif angle1 == angle2 or angle2 == angle3 or angle1 == angle3:
+elif a == b or b == c or a == c:
     print("Isosceles")
 else:
     print("Scalene")
